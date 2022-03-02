@@ -1,6 +1,6 @@
 name: Vulnerability Static Test
 on:
-  push:
+  workflow_call:
 
 jobs:
   build:
